@@ -30,7 +30,7 @@ apis:
   tags: Companies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/companies/master/_listings/intrinio/companies-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/companies/master/_listings/intrinio/companies-filings-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
