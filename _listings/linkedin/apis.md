@@ -33,7 +33,7 @@ apis:
   tags: Companies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/companies/master/_listings/linkedin/companies-id-shares-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/companies/master/_listings/linkedin/companies-id-num-followers-get.md
 x-common:
 - type: x-authentication
   url: https://developer.linkedin.com/documents/authentication
