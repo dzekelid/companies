@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/companies/master/_listings/linkedin/companies-id-company-statistics-get.md
-- name: LinkedIn Get Companies Num Followers
-  description: Get companies  num followers
+- name: LinkedIn Get Companies Historical Follow Statistics
+  description: Get companies  historical follow statistics
   image: https://avatars.githubusercontent.com/u/357098?v=3
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1
   tags: Companies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/linkedin/companies-id-num-followers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/linkedin/companies-id-historical-follow-statistics-get.md
 x-common:
 - type: x-authentication
   url: https://developer.linkedin.com/documents/authentication
