@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: LinkedIn
-  description: Bring user profiles and professional networks to your apps.
+  title: LinkedIn Get Companies Historical Follow Statistics
+  description: Get companies  historical follow statistics
   version: 1.0.0
 host: api.linkedin.com
 basePath: /v1
@@ -18,6 +18,12 @@ paths:
       summary: Get Companies Historical Follow Statistics
       description: Get companies  historical follow statistics
       operationId: getCompaniesHistoricalFollowStatistics
+      parameters:
+      - in: query
+        name: format
+        description: The message format
+        type: string
+        format: string
       responses:
         200:
           description: OK
