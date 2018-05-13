@@ -34,15 +34,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/companies/master/_listings/linkedin/companies-id-company-statistics-get.md
-- name: LinkedIn Get Companies Relation To Viewer Is Company Share Enabled
-  description: Get companies  relation to viewer is company share enabled
-  image: https://avatars.githubusercontent.com/u/357098?v=3
-  humanURL: http://linkedin.com
-  baseURL: https://api.linkedin.com//v1
-  tags: Companies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/linkedin/companies-id-relation-to-viewer-is-company-share-enabled-get.md
 x-common:
 - type: x-authentication
   url: https://developer.linkedin.com/documents/authentication
