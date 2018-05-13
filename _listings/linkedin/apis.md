@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/companies/master/_listings/linkedin/companies-id-company-statistics-get.md
-- name: LinkedIn Get Companies
-  description: Get companies
+- name: LinkedIn Get Companies (,name,ticker,description)
+  description: Get companies  (,name,ticker,description)
   image: https://avatars.githubusercontent.com/u/357098?v=3
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1
   tags: Companies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/linkedin/companies-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/linkedin/companies-id-(id,name,ticker,description)-get.md
 x-common:
 - type: x-authentication
   url: https://developer.linkedin.com/documents/authentication
