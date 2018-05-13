@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/companies/master/_listings/linkedin/companies-id-company-statistics-get.md
-- name: LinkedIn Add Companies Shares
-  description: Post companies  shares
+- name: LinkedIn Get Companies Num Followers
+  description: Get companies  num followers
   image: https://avatars.githubusercontent.com/u/357098?v=3
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1
   tags: Companies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/linkedin/companies-id-shares-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/linkedin/companies-id-num-followers-get.md
 x-common:
 - type: x-authentication
   url: https://developer.linkedin.com/documents/authentication
