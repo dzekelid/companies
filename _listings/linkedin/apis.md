@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/companies/master/_listings/linkedin/companies-id-company-statistics-get.md
-- name: LinkedIn Get Companies Historical Status Update Statistics
-  description: Get companies  historical status update statistics
+- name: LinkedIn Get Companies Company Statistics
+  description: Get companies  company statistics
   image: https://avatars.githubusercontent.com/u/357098?v=3
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1
   tags: Companies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/linkedin/companies-id-historical-status-update-statistics-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/linkedin/companies-id-company-statistics-get.md
 x-common:
 - type: x-authentication
   url: https://developer.linkedin.com/documents/authentication
