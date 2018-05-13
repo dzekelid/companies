@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: LinkedIn
-  description: Bring user profiles and professional networks to your apps.
+  title: LinkedIn Get Companies Num Followers
+  description: Get companies  num followers
   version: 1.0.0
 host: api.linkedin.com
 basePath: /v1
@@ -18,6 +18,12 @@ paths:
       summary: Get Companies Num Followers
       description: Get companies  num followers
       operationId: getCompaniesNumFollowers
+      parameters:
+      - in: query
+        name: format
+        description: The message format
+        type: string
+        format: string
       responses:
         200:
           description: OK
