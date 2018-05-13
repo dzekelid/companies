@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: LinkedIn
-  description: Bring user profiles and professional networks to your apps.
+  title: LinkedIn Get Companies Relation To Viewer Is Company Share Enabled
+  description: Get companies  relation to viewer is company share enabled
   version: 1.0.0
 host: api.linkedin.com
 basePath: /v1
