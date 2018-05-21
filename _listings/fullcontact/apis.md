@@ -1,7 +1,8 @@
 ---
 name: FullContact
+x-slug: fullcontact
 description: FullContact provides a cloud-based contact management solution for businesses,
-  developers, and individuals. Using FullContactrsquo;s Cloud Address Book, contacts
+  developers, and individuals. Using FullContact&rsquo;s Cloud Address Book, contacts
   can be normalized, de-duplicated, merged, and enriched with social pro?les. Users
   can create custom tags and searches to easily make targeted lists. Every version
   of every contact is automatically updated and contacts can be shared with any platform
@@ -9,30 +10,39 @@ description: FullContact provides a cloud-based contact management solution for 
 image: https://avatars0.githubusercontent.com/u/792175?v=4
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Social
-- Social
-- Phone
-- Office
-- My API Stack
-- Enrichment
-- CRM
-- Contacts
-- Contacts
-- Contact Management
-- Contact
-- Business Card
-- Business
-- Append
-- API LIfeycle
-- Address
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Companies
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/fullcontact/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: FullContact Get Company
+  x-api-slug: fullcontact
+  description: Get Company
+  image: https://avatars0.githubusercontent.com/u/792175?v=4
+  humanURL: http://www.fullcontact.com
+  baseURL: https://api.fullcontact.com////company/lookup.json
+  tags: Companies
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/fullcontact/companylookupjson-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/fullcontact/companylookupjson-get-openapi.md
+- name: FullContact
+  x-api-slug: fullcontact
+  description: FullContact provides a cloud-based contact management solution for
+    businesses, developers, and individuals. Using FullContact&rsquo;s Cloud Address
+    Book, contacts can be normalized, de-duplicated, merged, and enriched with social
+    pro?les. Users can create custom tags and searches to easily make targeted lists.
+    Every version of every contact is automatically updated and contacts can be shared
+    with any platform or other users.
+  image: https://avatars0.githubusercontent.com/u/792175?v=4
+  humanURL: http://www.fullcontact.com
+  baseURL: https://api.fullcontact.com//
+  tags: Companies
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/fullcontact/openapi.md
 x-common:
 - type: x-base
   url: https://api.fullcontact.com
