@@ -1,0 +1,151 @@
+---
+swagger: "2.0"
+x-collection-name: Apigee Edge
+x-complete: 0
+info:
+  title: Apigee Edge Get Organizations Name Companies Company Name Developers
+  description: Lists all developers associated with a company.
+  version: 1.0.0
+host: api.enterprise.apigee.com
+basePath: /v1/
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /organizations/{org_name}/companies:
+    get:
+      summary: Get Organizations Name Companies
+      description: Returns an expanded list of companies, displaying a full profile
+        for each company in the organization.
+      operationId: getOrganizationsOrgNameCompanies
+      x-api-path-slug: organizationsorg-namecompanies-get
+      parameters:
+      - in: query
+        name: expand
+        description: Specify the Content Type
+      - in: path
+        name: org_name
+        description: Mention the organization name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Companies
+    post:
+      summary: Post Organizations Name Companies
+      description: Creates a company in an organization.
+      operationId: postOrganizationsOrgNameCompanies
+      x-api-path-slug: organizationsorg-namecompanies-post
+      parameters:
+      - in: query
+        name: Content-Type
+        description: Specify the Content Type
+      - in: path
+        name: org_name
+        description: Mention the organization name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Companies
+  /organizations/{org_name}/companies/{company_name}:
+    get:
+      summary: Get Organizations Name Companies Company Name
+      description: Gets details for a Company.
+      operationId: getOrganizationsOrgNameCompaniesCompanyName
+      x-api-path-slug: organizationsorg-namecompaniescompany-name-get
+      parameters:
+      - in: path
+        name: company_name
+        description: Mention the company name
+      - in: path
+        name: org_name
+        description: Mention the organization name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Companies
+      - Companies
+    put:
+      summary: Put Organizations Name Companies Company Name
+      description: Updates an existing Company.
+      operationId: putOrganizationsOrgNameCompaniesCompanyName
+      x-api-path-slug: organizationsorg-namecompaniescompany-name-put
+      parameters:
+      - in: path
+        name: company_name
+        description: Mention the company name
+      - in: query
+        name: Content-Type
+        description: Specify the content type
+      - in: path
+        name: org_name
+        description: Mention the organization name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Companies
+      - Companies
+    delete:
+      summary: Delete Organizations Name Companies Company Name
+      description: Deletes an existing Company.
+      operationId: deleteOrganizationsOrgNameCompaniesCompanyName
+      x-api-path-slug: organizationsorg-namecompaniescompany-name-delete
+      parameters:
+      - in: path
+        name: company_name
+        description: Mention the company name
+      - in: path
+        name: org_name
+        description: Mention the organization name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Companies
+      - Companies
+  /organizations/{org_name}/companies/{company_name}/developers:
+    get:
+      summary: Get Organizations Name Companies Company Name Developers
+      description: Lists all developers associated with a company.
+      operationId: getOrganizationsOrgNameCompaniesCompanyNameDevelopers
+      x-api-path-slug: organizationsorg-namecompaniescompany-namedevelopers-get
+      parameters:
+      - in: path
+        name: company_name
+        description: Mention the company name
+      - in: path
+        name: org_name
+        description: Mention the organization name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Companies
+      - Companies
+      - Developers
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

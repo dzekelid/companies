@@ -1,24 +1,21 @@
 ---
 name: LinkedIn
 x-slug: linkedin
-description: With over 100 million users representing over 200 countries around the
-  world, LinkedIn is a fast-growing professional networking site that allows members
-  to create business contacts, search for jobs, and find potential clients. Individuals
-  have the ability to create their own professional profile that can be viewed by
-  others in their network, and also view the profiles of their own contacts.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+description: 500 million+ members | Manage your professional identity. Build and engage
+  with your professional network. Access knowledge, insights and opportunities.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "31"
 tags: Companies
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/linkedin/apis.md
 specificationVersion: "0.14"
 apis:
 - name: LinkedIn Add Companies Updates Key Update Key Update Comments As Company
   x-api-slug: linkedin
   description: Post companies  updates key update key update comments as company
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/updates/key={update-key}/update-comments-as-company/
   tags: Companies, , Updates, Key, Update, Key, Update, Comments, As, Company
@@ -28,7 +25,7 @@ apis:
 - name: LinkedIn Get Companies Is Company Share Enabled
   x-api-slug: linkedin
   description: Get companies  is company share enabled
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/is-company-share-enabled
   tags: Companies, , Is, Company, Share, Enabled
@@ -38,7 +35,7 @@ apis:
 - name: LinkedIn Get Companies Relation To Viewer Is Company Share Enabled
   x-api-slug: linkedin
   description: Get companies  relation to viewer is company share enabled
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/relation-to-viewer/is-company-share-enabled
   tags: Companies, , Relation, To, Viewer, Is, Company, Share, Enabled
@@ -48,7 +45,7 @@ apis:
 - name: LinkedIn Get Companies
   x-api-slug: linkedin
   description: Get companies
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/
   tags: Companies
@@ -60,7 +57,7 @@ apis:
 - name: LinkedIn Get Companies
   x-api-slug: linkedin
   description: Get companies
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}
   tags: Companies
@@ -70,7 +67,7 @@ apis:
 - name: LinkedIn Get Companies (,name,ticker,description)
   x-api-slug: linkedin
   description: Get companies  (,name,ticker,description)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}:(id,name,ticker,description)
   tags: Companies, , (,name,ticker,description)
@@ -80,7 +77,7 @@ apis:
 - name: LinkedIn Get Companies Updates
   x-api-slug: linkedin
   description: Get companies  updates
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/updates
   tags: Companies, , Updates
@@ -90,7 +87,7 @@ apis:
 - name: LinkedIn Get Companies Updates Key Update Key
   x-api-slug: linkedin
   description: Get companies  updates key update key
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/updates/key={update-key}
   tags: Companies, , Updates, Key, Update, Key
@@ -100,7 +97,7 @@ apis:
 - name: LinkedIn Get Companies Updates Key Update Key Update Comments
   x-api-slug: linkedin
   description: Get companies  updates key update key update comments
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/updates/key={update-key}/update-comments
   tags: Companies, , Updates, Key, Update, Key, Update, Comments
@@ -110,7 +107,7 @@ apis:
 - name: LinkedIn Get Companies Updates Key Update Key Likes
   x-api-slug: linkedin
   description: Get companies  updates key update key likes
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/updates/key={update-key}/likes
   tags: Companies, , Updates, Key, Update, Key, Likes
@@ -120,7 +117,7 @@ apis:
 - name: LinkedIn Add Companies Shares
   x-api-slug: linkedin
   description: Post companies  shares
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/shares
   tags: Companies, , Shares
@@ -130,7 +127,7 @@ apis:
 - name: LinkedIn Get Companies Num Followers
   x-api-slug: linkedin
   description: Get companies  num followers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/num-followers
   tags: Companies, , Num, Followers
@@ -140,7 +137,7 @@ apis:
 - name: LinkedIn Get Companies Historical Follow Statistics
   x-api-slug: linkedin
   description: Get companies  historical follow statistics
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/historical-follow-statistics
   tags: Companies, , Historical, Follow, Statistics
@@ -150,7 +147,7 @@ apis:
 - name: LinkedIn Get Companies Historical Status Update Statistics
   x-api-slug: linkedin
   description: Get companies  historical status update statistics
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/historical-status-update-statistics
   tags: Companies, , Historical, Status, Update, Statistics
@@ -160,7 +157,7 @@ apis:
 - name: LinkedIn Get Companies Company Statistics
   x-api-slug: linkedin
   description: Get companies  company statistics
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/company-statistics
   tags: Companies, , Company, Statistics
@@ -169,13 +166,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/linkedin/companiesidcompanystatistics-get-openapi.md
 - name: LinkedIn
   x-api-slug: linkedin
-  description: With over 100 million users representing over 200 countries around
-    the world, LinkedIn is a fast-growing professional networking site that allows
-    members to create business contacts, search for jobs, and find potential clients.
-    Individuals have the ability to create their own professional profile that can
-    be viewed by others in their network, and also view the profiles of their own
-    contacts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  description: 500 million+ members | Manage your professional identity. Build and
+    engage with your professional network. Access knowledge, insights and opportunities.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1
   tags: Companies
@@ -193,6 +186,8 @@ x-common:
   url: https://brand.linkedin.com/policies
 - type: x-case-studies
   url: https://developer.linkedin.com/showcase/wordpress
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/linkedin
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/linkedin
 - type: x-developer

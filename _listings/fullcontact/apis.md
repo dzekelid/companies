@@ -1,43 +1,35 @@
 ---
 name: FullContact
 x-slug: fullcontact
-description: FullContact provides a cloud-based contact management solution for businesses,
-  developers, and individuals. Using FullContact&rsquo;s Cloud Address Book, contacts
-  can be normalized, de-duplicated, merged, and enriched with social pro?les. Users
-  can create custom tags and searches to easily make targeted lists. Every version
-  of every contact is automatically updated and contacts can be shared with any platform
-  or other users.
-image: https://avatars0.githubusercontent.com/u/792175?v=4
+description: Build a clearer picture of your customers in minutes with our data-focused
+  APIs. Manage your personal or teams contacts with our contact apps.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/205-fullcontact.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "49636"
 tags: Companies
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/fullcontact/apis.md
 specificationVersion: "0.14"
 apis:
 - name: FullContact Get Company
   x-api-slug: fullcontact
   description: Get Company
-  image: https://avatars0.githubusercontent.com/u/792175?v=4
-  humanURL: http://www.fullcontact.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/205-fullcontact.jpg
+  humanURL: http://fullcontact.com
   baseURL: https://api.fullcontact.com////company/lookup.json
   tags: Companies
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/fullcontact/companylookupjson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/fullcontact/companylookup-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/fullcontact/companylookupjson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/fullcontact/companylookup-json-get-openapi.md
 - name: FullContact
   x-api-slug: fullcontact
-  description: FullContact provides a cloud-based contact management solution for
-    businesses, developers, and individuals. Using FullContact&rsquo;s Cloud Address
-    Book, contacts can be normalized, de-duplicated, merged, and enriched with social
-    pro?les. Users can create custom tags and searches to easily make targeted lists.
-    Every version of every contact is automatically updated and contacts can be shared
-    with any platform or other users.
-  image: https://avatars0.githubusercontent.com/u/792175?v=4
-  humanURL: http://www.fullcontact.com
+  description: Build a clearer picture of your customers in minutes with our data-focused
+    APIs. Manage your personal or teams contacts with our contact apps.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/205-fullcontact.jpg
+  humanURL: http://fullcontact.com
   baseURL: https://api.fullcontact.com//
   tags: Companies
   properties:
@@ -51,9 +43,15 @@ x-common:
 - type: x-blog-rss
   url: http://www.fullcontact.com/feed/
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/fullcontact
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/fullcontact
 - type: x-developer
   url: http://www.fullcontact.com/developer
+- type: x-email
+  url: Compliance@FullContact.com
+- type: x-email
+  url: Privacy@fullcontact.com
 - type: x-github
   url: https://github.com/fullcontact
 - type: x-pricing
@@ -66,6 +64,10 @@ x-common:
   url: https://www.fullcontact.com/terms/
 - type: x-twitter
   url: https://twitter.com/FullContactAPI
+- type: x-twitter
+  url: https://twitter.com/FullContact
+- type: x-website
+  url: http://fullcontact.com
 - type: x-website
   url: http://www.fullcontact.com
 include: []

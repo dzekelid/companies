@@ -21,7 +21,7 @@ paths:
       summary: Get Company
       description: Get Company
       operationId: getCompany
-      x-api-path-slug: companylookupjson-get
+      x-api-path-slug: companylookup-json-get
       parameters:
       - in: query
         name: apiKey
@@ -35,8 +35,8 @@ paths:
         description: The domain of the company being looked up
       - in: query
         name: keyPeople
-        description: ' If true, a list of Executive and VP level employees at this
-          company will be returned under the keyPeople field'
+        description: If true, a list of Executive and VP level employees at this company
+          will be returned under the keyPeople field
       - in: query
         name: prettyPrint
         description: The prettyPrint parameter can be used to disable prettyprint

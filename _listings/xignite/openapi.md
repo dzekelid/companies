@@ -4,7 +4,7 @@ x-collection-name: Xignite
 x-complete: 1
 info:
   title: Xignite Fact Set Estimates
-  description: this-web-service-provides-global-estimate-data
+  description: this-web-service-provides-global-estimate-data-
   version: 1.0.0
 host: factsetestimates.xignite.com
 basePath: xFactSetEstimates.json/XigniteFactSetEstimates
@@ -16,11 +16,11 @@ consumes:
 - application/json
 paths:
   /ListCompanies:
-    post:
+    get:
       summary: List Companies
       description: List Symbols
       operationId: ListCompanies
-      x-api-path-slug: listcompanies-post
+      x-api-path-slug: listcompanies-get
       parameters:
       - in: body
         name: body
@@ -30,6 +30,7 @@ paths:
         200:
           description: OK
       tags:
+      - Market Data
       - List
       - Companies
 ---
