@@ -1,14 +1,16 @@
 ---
 name: Intrinio
 x-slug: intrinio
-description: Market for financial data APIs and analytics applications built with
-  those data feeds. Affordable, easy to access financial data for developers and investors
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+description: Intelligent Data, On Demand. The financial data platform for developers,
+  investors, students, and educators, with over 200 feeds including real-time, intraday,
+  EOD, and international financial data available via REST API, WebSocket, CSV, Excel,
+  and Goo...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
 x-kinRank: "8"
-x-alexaRank: "321628"
+x-alexaRank: "303229"
 tags: Companies
-created: "2018-06-18"
-modified: "2018-06-18"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intrinio/apis.md
 specificationVersion: "0.14"
 apis:
@@ -16,7 +18,7 @@ apis:
   x-api-slug: intrinio-api
   description: Returns the master list of all companies covered by the Intrinio Data
     Marketplace.  You can view the Company/Security Master here.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com////companies
   tags: Market Data,Companies
@@ -26,7 +28,7 @@ apis:
 - name: Intrinio API Company SEC Filings
   x-api-slug: intrinio-api
   description: Returns the complete list of SEC filings for a company.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com////companies/filings
   tags: Market Data,Companies,Company Filings
@@ -37,7 +39,7 @@ apis:
   x-api-slug: intrinio-api
   description: Returns bank holding company list and information for all bank holding
     companies covered by Intrinio.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com////banks/holding_companies
   tags: Market Data,Holding Companies,Banks
@@ -49,7 +51,7 @@ apis:
   description: Returns a list of all information for an executive and their related
     companies.  Information includes the unique Intrinio executive company identifier,
     and detailed contact information for the executive at a specified company.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com////executives/companies
   tags: Market Data,Executives,companies
@@ -58,10 +60,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intrinio/executivescompanies-get-openapi.md
 - name: Intrinio API
   x-api-slug: intrinio-api
-  description: Market for financial data APIs and analytics applications built with
-    those data feeds. Affordable, easy to access financial data for developers and
-    investors
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  description: Intelligent Data, On Demand. The financial data platform for developers,
+    investors, students, and educators, with over 200 feeds including real-time, intraday,
+    EOD, and international financial data available via REST API, WebSocket, CSV,
+    Excel, and Goo...
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com//
   tags: Companies
@@ -91,6 +94,8 @@ x-common:
   url: admin@intrinio.com
 - type: x-email
   url: support@intrinio.com
+- type: x-email
+  url: acarpenter@intrinio.com
 - type: x-login
   url: https://intrinio.com/login
 - type: x-partners

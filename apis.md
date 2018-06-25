@@ -4,7 +4,7 @@ description: This is a repository of companies APIs, self-contained as a Github 
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/companies.png
 created: "2018-02-24"
-modified: "2018-06-18"
+modified: "2018-06-25"
 url: http://companies.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -26,8 +26,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/paylocity/apis.yaml
 - name: Stocklytics
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/stocklytics/apis.yaml
-- name: Apigee Edge
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/apigee-edge/apis.yaml
+- name: Apigee
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/apigee/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
