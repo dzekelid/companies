@@ -278,6 +278,276 @@ paths:
       - Earnings
       - EarningCode
       - StartDate
+    get:
+      summary: Get Earning by Earning Code and Start Date
+      description: Get Earnings returns the single earning with the provided earning
+        code and start date for the selected employee.
+      operationId: v2.companies.companyId.employees.employeeId.earnings.earningCode.startDate.get
+      x-api-path-slug: v2companiescompanyidemployeesemployeeidearningsearningcodestartdate-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer + JWT
+      - in: path
+        name: companyId
+        description: Company Id
+      - in: path
+        name: earningCode
+        description: Earning Code
+      - in: path
+        name: employeeId
+        description: Employee Id
+      - in: path
+        name: startDate
+        description: Start Date
+      responses:
+        200:
+          description: OK
+      tags:
+      - V2
+      - Companies
+      - CompanyId
+      - Employees
+      - EmployeeId
+      - Earnings
+      - EarningCode
+      - StartDate
+  /v2/companies/{companyId}/employees/{employeeId}/localTaxes:
+    get:
+      summary: Get all local taxes
+      description: Returns all local taxes for the selected employee.
+      operationId: v2.companies.companyId.employees.employeeId.localTaxes.get
+      x-api-path-slug: v2companiescompanyidemployeesemployeeidlocaltaxes-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer + JWT
+      - in: path
+        name: companyId
+        description: Company Id
+      - in: path
+        name: employeeId
+        description: Employee Id
+      responses:
+        200:
+          description: OK
+      tags:
+      - V2
+      - Companies
+      - CompanyId
+      - Employees
+      - EmployeeId
+      - LocalTaxes
+    post:
+      summary: Add new local tax
+      description: Sends new employee local tax information directly to Web Pay.
+      operationId: v2.companies.companyId.employees.employeeId.localTaxes.post
+      x-api-path-slug: v2companiescompanyidemployeesemployeeidlocaltaxes-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer + JWT
+      - in: path
+        name: companyId
+        description: Company Id
+      - in: path
+        name: employeeId
+        description: Employee Id
+      - in: body
+        name: json
+        description: LocalTax Model
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - V2
+      - Companies
+      - CompanyId
+      - Employees
+      - EmployeeId
+      - LocalTaxes
+  /v2/companies/{companyId}/employees/{employeeId}/localTaxes/{taxCode}:
+    delete:
+      summary: Delete local tax by tax code
+      description: Delete local tax by tax code
+      operationId: v2.companies.companyId.employees.employeeId.localTaxes.taxCode.delete
+      x-api-path-slug: v2companiescompanyidemployeesemployeeidlocaltaxestaxcode-delete
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer + JWT
+      - in: path
+        name: companyId
+        description: Company Id
+      - in: path
+        name: employeeId
+        description: Employee Id
+      - in: path
+        name: taxCode
+        description: Tax Code
+      responses:
+        200:
+          description: OK
+      tags:
+      - V2
+      - Companies
+      - CompanyId
+      - Employees
+      - EmployeeId
+      - LocalTaxes
+      - TaxCode
+    get:
+      summary: Get local taxes by tax code
+      description: Returns all local taxes with the provided tax code for the selected
+        employee.
+      operationId: v2.companies.companyId.employees.employeeId.localTaxes.taxCode.get
+      x-api-path-slug: v2companiescompanyidemployeesemployeeidlocaltaxestaxcode-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer + JWT
+      - in: path
+        name: companyId
+        description: Company Id
+      - in: path
+        name: employeeId
+        description: Employee Id
+      - in: path
+        name: taxCode
+        description: Tax Code
+      responses:
+        200:
+          description: OK
+      tags:
+      - V2
+      - Companies
+      - CompanyId
+      - Employees
+      - EmployeeId
+      - LocalTaxes
+      - TaxCode
+  /v2/companies/{companyId}/employees/{employeeId}/nonprimaryStateTax:
+    put:
+      summary: Add/update non-primary state tax
+      description: Sends new or updated employee non-primary state tax information
+        directly to Web Pay.
+      operationId: v2.companies.companyId.employees.employeeId.nonprimaryStateTax.put
+      x-api-path-slug: v2companiescompanyidemployeesemployeeidnonprimarystatetax-put
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer + JWT
+      - in: path
+        name: companyId
+        description: Company Id
+      - in: path
+        name: employeeId
+        description: Employee Id
+      - in: body
+        name: json
+        description: Non-Primary State Tax Model
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - V2
+      - Companies
+      - CompanyId
+      - Employees
+      - EmployeeId
+      - NonprimaryStateTax
+  /v2/companies/{companyId}/employees/{employeeId}/primaryStateTax:
+    put:
+      summary: Add/update primary state tax
+      description: Sends new or updated employee primary state tax information directly
+        to Web Pay.
+      operationId: v2.companies.companyId.employees.employeeId.primaryStateTax.put
+      x-api-path-slug: v2companiescompanyidemployeesemployeeidprimarystatetax-put
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer + JWT
+      - in: path
+        name: companyId
+        description: Company Id
+      - in: path
+        name: employeeId
+        description: Employee Id
+      - in: body
+        name: json
+        description: Primary State Tax Model
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - V2
+      - Companies
+      - CompanyId
+      - Employees
+      - EmployeeId
+      - PrimaryStateTax
+  /v2/companies/{companyId}/openapi:
+    get:
+      summary: Get Company-Specific Open API Documentation
+      description: The company-specific Open API endpoint allows the client to GET
+        an Open API document for the Paylocity API that is customized with company-specific
+        resource schemas. These customized resource schemas define certain properties
+        as enumerations of pre-defined values that correspond to the company's setup
+        with Web Pay. The customized schemas also indicate which properties are required
+        by the company within Web Pay.<br  />To learn more about Open API, click [here](https://www.openapis.org/)
+      operationId: v2.companies.companyId.openapi.get
+      x-api-path-slug: v2companiescompanyidopenapi-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer + JWT
+      - in: path
+        name: companyId
+        description: Company Id
+      responses:
+        200:
+          description: OK
+      tags:
+      - V2
+      - Companies
+      - CompanyId
+      - Openapi
+  /v2/weblinkstaging/companies/{companyId}/employees/newemployees:
+    post:
+      summary: Add new employee to Web Link
+      description: Add new employee to Web Link will send partially completed or potentially
+        erroneous new hire record to Web Link, where it can be corrected and competed
+        by company administrator or authorized Paylocity Service Bureau employee.
+      operationId: v2.weblinkstaging.companies.companyId.employees.newemployees.post
+      x-api-path-slug: v2weblinkstagingcompaniescompanyidemployeesnewemployees-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer + JWT
+      - in: path
+        name: companyId
+        description: Company Id
+      - in: body
+        name: json
+        description: StagedEmployee Model
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - V2
+      - Weblinkstaging
+      - Companies
+      - CompanyId
+      - Employees
+      - Newemployees
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

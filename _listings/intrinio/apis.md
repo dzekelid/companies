@@ -9,69 +9,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intr
 x-kinRank: "8"
 x-alexaRank: "303229"
 tags: Companies
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intrinio/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Intrinio API Company Master
-  x-api-slug: intrinio-api
-  description: Returns the master list of all companies covered by the Intrinio Data
-    Marketplace.  You can view the Company/Security Master here.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
-  baseURL: https://api.intrinio.com////companies
-  tags: Market Data,Companies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intrinio/companies-get-openapi.md
-- name: Intrinio API Company SEC Filings
-  x-api-slug: intrinio-api
-  description: Returns the complete list of SEC filings for a company.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
-  baseURL: https://api.intrinio.com////companies/filings
-  tags: Market Data,Companies,Company Filings
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intrinio/companiesfilings-get-openapi.md
-- name: Intrinio API Bank Holding Companies
-  x-api-slug: intrinio-api
-  description: Returns bank holding company list and information for all bank holding
-    companies covered by Intrinio.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
-  baseURL: https://api.intrinio.com////banks/holding_companies
-  tags: Market Data,Holding Companies,Banks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intrinio/banksholding-companies-get-openapi.md
-- name: Intrinio API Company Executive Contacts
-  x-api-slug: intrinio-api
-  description: Returns a list of all information for an executive and their related
-    companies.  Information includes the unique Intrinio executive company identifier,
-    and detailed contact information for the executive at a specified company.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
-  baseURL: https://api.intrinio.com////executives/companies
-  tags: Market Data,Executives,companies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intrinio/executivescompanies-get-openapi.md
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: Intelligent Data, On Demand. The financial data platform for developers,
-    investors, students, and educators, with over 200 feeds including real-time, intraday,
-    EOD, and international financial data available via REST API, WebSocket, CSV,
-    Excel, and Goo...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
-  baseURL: https://api.intrinio.com//
-  tags: Companies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intrinio/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://international.trade.administration.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://intrinio.stack.network
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
 - type: x-authentication
