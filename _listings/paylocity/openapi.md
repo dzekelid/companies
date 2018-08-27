@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Paylocity
 x-complete: 1
@@ -548,4 +547,3 @@ paths:
       - CompanyId
       - Employees
       - Newemployees
----

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: OpenCorporates
 x-complete: 1
@@ -173,4 +172,3 @@ paths:
       - Businesses
       - Companies
       - Search
----

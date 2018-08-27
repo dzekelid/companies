@@ -9,11 +9,116 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Companies
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/google-partners/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Partners - Get Companies
+  x-api-slug: v2companies-get
+  description: Lists companies.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
+  humanURL: https://developers.google.com/partners/
+  baseURL: ://partners.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/google-partners/v2companies-get-openapi.md
+- name: Google Partners - Update Company
+  x-api-slug: v2companies-patch
+  description: |-
+    Update company.
+    Should only be called within the context of an authorized logged in user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
+  humanURL: https://developers.google.com/partners/
+  baseURL: ://partners.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/google-partners/v2companies-patch-openapi.md
+- name: Google Partners - Get Company
+  x-api-slug: v2companiescompanyid-get
+  description: Gets a company.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
+  humanURL: https://developers.google.com/partners/
+  baseURL: ://partners.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/google-partners/v2companiescompanyid-get-openapi.md
+- name: Google Partners - Get Companies
+  x-api-slug: v2companies-get
+  description: Lists companies.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
+  humanURL: https://developers.google.com/partners/
+  baseURL: ://partners.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/google-partners/v2companies-get-openapi.md
+- name: Google Partners - Update Company
+  x-api-slug: v2companies-patch
+  description: |-
+    Update company.
+    Should only be called within the context of an authorized logged in user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
+  humanURL: https://developers.google.com/partners/
+  baseURL: ://partners.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/google-partners/v2companies-patch-openapi.md
+- name: Google Partners - Get Company
+  x-api-slug: v2companiescompanyid-get
+  description: Gets a company.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
+  humanURL: https://developers.google.com/partners/
+  baseURL: ://partners.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/google-partners/v2companiescompanyid-get-openapi.md
+- name: Google Partners - Get Company
+  x-api-slug: v2companiescompanyid-get
+  description: Gets a company.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
+  humanURL: https://developers.google.com/partners/
+  baseURL: ://partners.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/google-partners/v2companiescompanyid-get-openapi.md
+- name: Google Partners - Update Company
+  x-api-slug: v2companies-patch
+  description: |-
+    Update company.
+    Should only be called within the context of an authorized logged in user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
+  humanURL: https://developers.google.com/partners/
+  baseURL: ://partners.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/google-partners/v2companies-patch-openapi.md
+- name: Google Partners - Get Companies
+  x-api-slug: v2companies-get
+  description: Lists companies.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
+  humanURL: https://developers.google.com/partners/
+  baseURL: ://partners.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/google-partners/v2companies-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.pagespeed.insights.api.gallery.streamdata.io

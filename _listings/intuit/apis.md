@@ -8,11 +8,53 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intui
 x-kinRank: "8"
 x-alexaRank: "263"
 tags: Companies
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intuit/apis.md
 specificationVersion: "0.14"
 apis:
+- name: QuickBooks Online V3 API - Get Company
+  x-api-slug: companyinfocompanyid-get
+  description: 'Method : GET'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intuit/companyinfocompanyid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intuit/companyinfocompanyid-get-openapi.md
+- name: QuickBooks Online V3 API - Get Company
+  x-api-slug: companyinfocompanyid-get
+  description: 'Method : GET'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intuit/companyinfocompanyid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intuit/companyinfocompanyid-get-openapi.md
+- name: QuickBooks Online V3 API - Get Company
+  x-api-slug: companyinfocompanyid-get
+  description: 'Method : GET'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intuit/companyinfocompanyid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/companies/master/_listings/intuit/companyinfocompanyid-get-openapi.md
 - name: QuickBooks Online V3 API - Get Company
   x-api-slug: companyinfocompanyid-get
   description: 'Method : GET'
